@@ -1,0 +1,32 @@
+#logo {
+  text-align: center;
+}
+
+#logo_text{
+	font-stretch: wider;
+}
+
+#login{
+	text-align: center;	
+}
+
+#login_text{
+	text-transform: 
+}
+
+#login_field{
+	vertical-align: top;
+	margin: 7px; 
+}
+
+#hello_text{
+	text-align: center;
+	
+}
+
+#audio{
+	display: table;
+    margin: 0 auto;
+}
+
+
