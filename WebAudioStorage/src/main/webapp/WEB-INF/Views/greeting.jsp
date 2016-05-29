@@ -17,7 +17,7 @@
 	
 		<h4 id="hello_text">This way all of us will be able to listen to perfect music only :-)</h4>
 	
-	<form id="logo" action="main" method="post">
+	<form id="ok" action="main" method="post">
 		<input type = "image" src="Res/Images/ok.png" alt="ok">		
 	</form>
 

@@ -29,4 +29,22 @@
     margin: 0 auto;
 }
 
+#ok{
+  text-align: center;
+}
 
+#ok input{
+-webkit-animation: opacity  1s infinite ease-in-out;
+animation: opacity  1s infinite ease-in-out;
+}
+
+@-webkit-keyframes opacity  {
+from {opacity: 0.5}
+50% {opacity: 0}
+to {opacity: 0.5}
+}
+@keyframes opacity  {
+from {opacity: 0.5}
+50% {opacity: 0}
+to {opacity: 0.5}
+}

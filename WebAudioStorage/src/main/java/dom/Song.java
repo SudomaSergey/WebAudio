@@ -1,13 +1,19 @@
 package dom;
 
-import java.sql.Blob;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
+@Entity
 public class Song {
 	
 	private String name;
 	private String author;
 	private String genre;
-	private Blob song;
+	private String path;
+	
+	@Id
+	@GeneratedValue
 	private int id;
 	
 	public String getName() {
@@ -28,20 +34,16 @@ public class Song {
 	public void setGenre(String genre) {
 		this.genre = genre;
 	}
-	public Blob getSong() {
-		return song;
-	}
-	public void setSong(Blob song) {
-		this.song = song;
-	}
 	public int getId() {
 		return id;
 	}
 	public void setId(int id) {
 		this.id = id;
 	}
-	
-	
-	
-
+	public String getPath() {
+		return path;
+	}
+	public void setPath(String path) {
+		this.path = path;
+	}
 }
